@@ -8,8 +8,13 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "App.h"
+#include <GL/freeglut.h>
+
+int main(int argc, char * argv[])
+{
+    App *app = new App(&argc, argv);
+    app->mainLoop();
+    
     return 0;
 }

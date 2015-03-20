@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F459E3291ABA274A00F651D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E3281ABA274A00F651D6 /* main.cpp */; };
+		F459E3311ABA280600F651D6 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E32F1ABA280600F651D6 /* App.cpp */; };
+		F459E3331ABA330100F651D6 /* libGL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3321ABA330100F651D6 /* libGL.1.dylib */; };
+		F459E3351ABA331100F651D6 /* libGLU.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3341ABA331100F651D6 /* libGLU.1.dylib */; };
+		F459E3371ABA332A00F651D6 /* libglut.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3361ABA332A00F651D6 /* libglut.3.dylib */; };
+		F459E33D1ABA42B200F651D6 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E33B1ABA42B200F651D6 /* Scene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,15 @@
 /* Begin PBXFileReference section */
 		F459E3251ABA274A00F651D6 /* Choo Choo Express */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Choo Choo Express"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F459E3281ABA274A00F651D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F459E32F1ABA280600F651D6 /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
+		F459E3301ABA280600F651D6 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		F459E3321ABA330100F651D6 /* libGL.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGL.1.dylib; path = ../../../../../opt/X11/lib/libGL.1.dylib; sourceTree = "<group>"; };
+		F459E3341ABA331100F651D6 /* libGLU.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLU.1.dylib; path = ../../../../../opt/X11/lib/libGLU.1.dylib; sourceTree = "<group>"; };
+		F459E3361ABA332A00F651D6 /* libglut.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglut.3.dylib; path = ../../../../../opt/X11/lib/libglut.3.dylib; sourceTree = "<group>"; };
+		F459E33B1ABA42B200F651D6 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		F459E33C1ABA42B200F651D6 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		F4C5A3B01ABB993F00C5D9D6 /* top.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = top.tga; sourceTree = "<group>"; };
+		F4C5A3B11ABB996600C5D9D6 /* loadTGA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadTGA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F459E3371ABA332A00F651D6 /* libglut.3.dylib in Frameworks */,
+				F459E3351ABA331100F651D6 /* libGLU.1.dylib in Frameworks */,
+				F459E3331ABA330100F651D6 /* libGL.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +58,9 @@
 		F459E31C1ABA274A00F651D6 = {
 			isa = PBXGroup;
 			children = (
+				F459E3361ABA332A00F651D6 /* libglut.3.dylib */,
+				F459E3341ABA331100F651D6 /* libGLU.1.dylib */,
+				F459E3321ABA330100F651D6 /* libGL.1.dylib */,
 				F459E3271ABA274A00F651D6 /* Choo Choo Express */,
 				F459E3261ABA274A00F651D6 /* Products */,
 			);
@@ -57,9 +77,23 @@
 		F459E3271ABA274A00F651D6 /* Choo Choo Express */ = {
 			isa = PBXGroup;
 			children = (
+				F4C5A3AF1ABB985600C5D9D6 /* Textures */,
 				F459E3281ABA274A00F651D6 /* main.cpp */,
+				F459E32F1ABA280600F651D6 /* App.cpp */,
+				F459E3301ABA280600F651D6 /* App.h */,
+				F4C5A3B11ABB996600C5D9D6 /* loadTGA.h */,
+				F459E33B1ABA42B200F651D6 /* Scene.cpp */,
+				F459E33C1ABA42B200F651D6 /* Scene.h */,
 			);
 			path = "Choo Choo Express";
+			sourceTree = "<group>";
+		};
+		F4C5A3AF1ABB985600C5D9D6 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				F4C5A3B01ABB993F00C5D9D6 /* top.tga */,
+			);
+			name = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F459E33D1ABA42B200F651D6 /* Scene.cpp in Sources */,
 				F459E3291ABA274A00F651D6 /* main.cpp in Sources */,
+				F459E3311ABA280600F651D6 /* App.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +238,13 @@
 		F459E32D1ABA274A00F651D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/X11/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/X11/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +252,13 @@
 		F459E32E1ABA274A00F651D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/X11/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/X11/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +282,7 @@
 				F459E32E1ABA274A00F651D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

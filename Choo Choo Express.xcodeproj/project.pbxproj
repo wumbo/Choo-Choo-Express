@@ -7,27 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43574A21ACBC042003BBBF3 /* Train.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574A01ACBC042003BBBF3 /* Train.cpp */; };
+		F43574A51ACC0CFF003BBBF3 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574A31ACC0CFF003BBBF3 /* Timer.cpp */; };
+		F43574A91ACC9CE9003BBBF3 /* Skybox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574A71ACC9CE9003BBBF3 /* Skybox.cpp */; };
+		F43574AC1ACCBF91003BBBF3 /* Station.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574AA1ACCBF91003BBBF3 /* Station.cpp */; };
+		F43574B01ACCFA34003BBBF3 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574AE1ACCFA33003BBBF3 /* Car.cpp */; };
+		F43574B31ACD0D6C003BBBF3 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574B11ACD0D6C003BBBF3 /* Person.cpp */; };
+		F43574B61ACD1365003BBBF3 /* House.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574B41ACD1365003BBBF3 /* House.cpp */; };
+		F43574B91ACD1867003BBBF3 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574B71ACD1867003BBBF3 /* Tower.cpp */; };
+		F43574BC1ACD1C28003BBBF3 /* Tunnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574BA1ACD1C28003BBBF3 /* Tunnel.cpp */; };
+		F43574BF1ACD1F8F003BBBF3 /* Signal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43574BD1ACD1F8F003BBBF3 /* Signal.cpp */; };
 		F459E3291ABA274A00F651D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E3281ABA274A00F651D6 /* main.cpp */; };
 		F459E3311ABA280600F651D6 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E32F1ABA280600F651D6 /* App.cpp */; };
 		F459E3331ABA330100F651D6 /* libGL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3321ABA330100F651D6 /* libGL.1.dylib */; };
 		F459E3351ABA331100F651D6 /* libGLU.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3341ABA331100F651D6 /* libGLU.1.dylib */; };
 		F459E3371ABA332A00F651D6 /* libglut.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F459E3361ABA332A00F651D6 /* libglut.3.dylib */; };
 		F459E33D1ABA42B200F651D6 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F459E33B1ABA42B200F651D6 /* Scene.cpp */; };
+		F4C5A3B31ABBE2CE00C5D9D6 /* Choo Choo Express in CopyFiles */ = {isa = PBXBuildFile; fileRef = F459E3251ABA274A00F651D6 /* Choo Choo Express */; };
+		F4C5A3B41ABBE38600C5D9D6 /* top.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4C5A3B01ABB993F00C5D9D6 /* top.tga */; };
+		F4C5A3B71ABBF03E00C5D9D6 /* Floor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C5A3B51ABBF03E00C5D9D6 /* Floor.cpp */; };
+		F4C5A3BE1ABD988600C5D9D6 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C5A3BC1ABD988600C5D9D6 /* Camera.cpp */; };
+		F4C5A3C11ABF729800C5D9D6 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C5A3BF1ABF729800C5D9D6 /* Texture.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F459E3231ABA274A00F651D6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 8;
+			dstPath = "~/Documents";
 			dstSubfolderSpec = 0;
 			files = (
+				F4C5A3B31ABBE2CE00C5D9D6 /* Choo Choo Express in CopyFiles */,
+				F4C5A3B41ABBE38600C5D9D6 /* top.tga in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F435749C1ACB9EFB003BBBF3 /* right.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = right.bmp; sourceTree = "<group>"; };
+		F435749D1ACB9F1A003BBBF3 /* left.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = left.bmp; sourceTree = "<group>"; };
+		F435749E1ACB9F31003BBBF3 /* front.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = front.bmp; sourceTree = "<group>"; };
+		F435749F1ACB9F89003BBBF3 /* back.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = back.bmp; sourceTree = "<group>"; };
+		F43574A01ACBC042003BBBF3 /* Train.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Train.cpp; sourceTree = "<group>"; };
+		F43574A11ACBC042003BBBF3 /* Train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		F43574A31ACC0CFF003BBBF3 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		F43574A41ACC0CFF003BBBF3 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		F43574A61ACC9957003BBBF3 /* road.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = road.bmp; sourceTree = "<group>"; };
+		F43574A71ACC9CE9003BBBF3 /* Skybox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skybox.cpp; sourceTree = "<group>"; };
+		F43574A81ACC9CE9003BBBF3 /* Skybox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skybox.h; sourceTree = "<group>"; };
+		F43574AA1ACCBF91003BBBF3 /* Station.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Station.cpp; sourceTree = "<group>"; };
+		F43574AB1ACCBF91003BBBF3 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		F43574AD1ACCEBDF003BBBF3 /* brick.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = brick.bmp; sourceTree = "<group>"; };
+		F43574AE1ACCFA33003BBBF3 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		F43574AF1ACCFA33003BBBF3 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		F43574B11ACD0D6C003BBBF3 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		F43574B21ACD0D6C003BBBF3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F43574B41ACD1365003BBBF3 /* House.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = House.cpp; sourceTree = "<group>"; };
+		F43574B51ACD1365003BBBF3 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		F43574B71ACD1867003BBBF3 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
+		F43574B81ACD1867003BBBF3 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
+		F43574BA1ACD1C28003BBBF3 /* Tunnel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tunnel.cpp; sourceTree = "<group>"; };
+		F43574BB1ACD1C28003BBBF3 /* Tunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tunnel.h; sourceTree = "<group>"; };
+		F43574BD1ACD1F8F003BBBF3 /* Signal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Signal.cpp; sourceTree = "<group>"; };
+		F43574BE1ACD1F8F003BBBF3 /* Signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Signal.h; sourceTree = "<group>"; };
 		F459E3251ABA274A00F651D6 /* Choo Choo Express */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Choo Choo Express"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F459E3281ABA274A00F651D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F459E32F1ABA280600F651D6 /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
@@ -37,8 +80,19 @@
 		F459E3361ABA332A00F651D6 /* libglut.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglut.3.dylib; path = ../../../../../opt/X11/lib/libglut.3.dylib; sourceTree = "<group>"; };
 		F459E33B1ABA42B200F651D6 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
 		F459E33C1ABA42B200F651D6 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
-		F4C5A3B01ABB993F00C5D9D6 /* top.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = top.tga; sourceTree = "<group>"; };
-		F4C5A3B11ABB996600C5D9D6 /* loadTGA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadTGA.h; sourceTree = "<group>"; };
+		F4C5A3B01ABB993F00C5D9D6 /* top.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = top.tga; path = "../../../../../../../../Documents/Xcode/Choo Choo Express/Choo Choo Express/top.tga"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C5A3B51ABBF03E00C5D9D6 /* Floor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Floor.cpp; sourceTree = "<group>"; };
+		F4C5A3B61ABBF03E00C5D9D6 /* Floor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floor.h; sourceTree = "<group>"; };
+		F4C5A3BB1ABD949500C5D9D6 /* floor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = floor.bmp; sourceTree = "<group>"; };
+		F4C5A3BC1ABD988600C5D9D6 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		F4C5A3BD1ABD988600C5D9D6 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		F4C5A3BF1ABF729800C5D9D6 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		F4C5A3C01ABF729800C5D9D6 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		F4C5A3C21ABF778D00C5D9D6 /* back.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = back.tga; sourceTree = "<group>"; };
+		F4C5A3C31ABF778D00C5D9D6 /* down.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = down.tga; sourceTree = "<group>"; };
+		F4C5A3C41ABF778D00C5D9D6 /* front.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = front.tga; sourceTree = "<group>"; };
+		F4C5A3C51ABF778D00C5D9D6 /* left.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = left.tga; sourceTree = "<group>"; };
+		F4C5A3C61ABF778D00C5D9D6 /* right.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = right.tga; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +133,36 @@
 			children = (
 				F4C5A3AF1ABB985600C5D9D6 /* Textures */,
 				F459E3281ABA274A00F651D6 /* main.cpp */,
+				F43574AA1ACCBF91003BBBF3 /* Station.cpp */,
+				F43574AB1ACCBF91003BBBF3 /* Station.h */,
 				F459E32F1ABA280600F651D6 /* App.cpp */,
 				F459E3301ABA280600F651D6 /* App.h */,
-				F4C5A3B11ABB996600C5D9D6 /* loadTGA.h */,
 				F459E33B1ABA42B200F651D6 /* Scene.cpp */,
 				F459E33C1ABA42B200F651D6 /* Scene.h */,
+				F43574A01ACBC042003BBBF3 /* Train.cpp */,
+				F43574A11ACBC042003BBBF3 /* Train.h */,
+				F4C5A3B51ABBF03E00C5D9D6 /* Floor.cpp */,
+				F4C5A3B61ABBF03E00C5D9D6 /* Floor.h */,
+				F43574B11ACD0D6C003BBBF3 /* Person.cpp */,
+				F43574B21ACD0D6C003BBBF3 /* Person.h */,
+				F4C5A3BC1ABD988600C5D9D6 /* Camera.cpp */,
+				F4C5A3BD1ABD988600C5D9D6 /* Camera.h */,
+				F4C5A3BF1ABF729800C5D9D6 /* Texture.cpp */,
+				F4C5A3C01ABF729800C5D9D6 /* Texture.h */,
+				F43574A31ACC0CFF003BBBF3 /* Timer.cpp */,
+				F43574A41ACC0CFF003BBBF3 /* Timer.h */,
+				F43574A71ACC9CE9003BBBF3 /* Skybox.cpp */,
+				F43574A81ACC9CE9003BBBF3 /* Skybox.h */,
+				F43574AE1ACCFA33003BBBF3 /* Car.cpp */,
+				F43574AF1ACCFA33003BBBF3 /* Car.h */,
+				F43574B41ACD1365003BBBF3 /* House.cpp */,
+				F43574B51ACD1365003BBBF3 /* House.h */,
+				F43574B71ACD1867003BBBF3 /* Tower.cpp */,
+				F43574B81ACD1867003BBBF3 /* Tower.h */,
+				F43574BA1ACD1C28003BBBF3 /* Tunnel.cpp */,
+				F43574BB1ACD1C28003BBBF3 /* Tunnel.h */,
+				F43574BD1ACD1F8F003BBBF3 /* Signal.cpp */,
+				F43574BE1ACD1F8F003BBBF3 /* Signal.h */,
 			);
 			path = "Choo Choo Express";
 			sourceTree = "<group>";
@@ -91,6 +170,18 @@
 		F4C5A3AF1ABB985600C5D9D6 /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				F43574AD1ACCEBDF003BBBF3 /* brick.bmp */,
+				F43574A61ACC9957003BBBF3 /* road.bmp */,
+				F435749F1ACB9F89003BBBF3 /* back.bmp */,
+				F435749E1ACB9F31003BBBF3 /* front.bmp */,
+				F435749D1ACB9F1A003BBBF3 /* left.bmp */,
+				F435749C1ACB9EFB003BBBF3 /* right.bmp */,
+				F4C5A3C21ABF778D00C5D9D6 /* back.tga */,
+				F4C5A3C31ABF778D00C5D9D6 /* down.tga */,
+				F4C5A3C41ABF778D00C5D9D6 /* front.tga */,
+				F4C5A3C51ABF778D00C5D9D6 /* left.tga */,
+				F4C5A3C61ABF778D00C5D9D6 /* right.tga */,
+				F4C5A3BB1ABD949500C5D9D6 /* floor.bmp */,
 				F4C5A3B01ABB993F00C5D9D6 /* top.tga */,
 			);
 			name = Textures;
@@ -152,8 +243,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43574B61ACD1365003BBBF3 /* House.cpp in Sources */,
+				F4C5A3BE1ABD988600C5D9D6 /* Camera.cpp in Sources */,
+				F4C5A3B71ABBF03E00C5D9D6 /* Floor.cpp in Sources */,
 				F459E33D1ABA42B200F651D6 /* Scene.cpp in Sources */,
+				F43574A51ACC0CFF003BBBF3 /* Timer.cpp in Sources */,
+				F4C5A3C11ABF729800C5D9D6 /* Texture.cpp in Sources */,
+				F43574A91ACC9CE9003BBBF3 /* Skybox.cpp in Sources */,
+				F43574A21ACBC042003BBBF3 /* Train.cpp in Sources */,
 				F459E3291ABA274A00F651D6 /* main.cpp in Sources */,
+				F43574BF1ACD1F8F003BBBF3 /* Signal.cpp in Sources */,
+				F43574B91ACD1867003BBBF3 /* Tower.cpp in Sources */,
+				F43574BC1ACD1C28003BBBF3 /* Tunnel.cpp in Sources */,
+				F43574B01ACCFA34003BBBF3 /* Car.cpp in Sources */,
+				F43574AC1ACCBF91003BBBF3 /* Station.cpp in Sources */,
+				F43574B31ACD0D6C003BBBF3 /* Person.cpp in Sources */,
 				F459E3311ABA280600F651D6 /* App.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

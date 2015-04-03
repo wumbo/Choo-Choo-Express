@@ -11,6 +11,9 @@
 
 #include <stdio.h>
 #include <GL/freeglut.h>
+#include <string>
+
+#define NUM_TEXTURES 8
 
 class App
 {
@@ -19,7 +22,8 @@ private:
     void initGL();
 public:
     static GLUquadric *q;
-    static int texId[1];
+    static GLuint texId[NUM_TEXTURES];
+    static std::string texPath;
     App(int *argc, char** argv);
     void mainLoop();
 };

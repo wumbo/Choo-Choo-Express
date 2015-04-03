@@ -11,11 +11,27 @@
 
 #include <stdio.h>
 
+#include "Car.h"
+
+enum camera_angle_t {
+    OVERHEAD,
+    DRIVER,
+    WHEEL,
+    PLATFORM,
+    CITY
+};
+
 class Scene
 {
 private:
     
 public:
+    static int cam_hgt;
+    static float cam_rot;
+    static int camx;
+    static int camy;
+    static camera_angle_t cameraAngle;
+    static Car *currentCar;
     void draw();
 };
 
